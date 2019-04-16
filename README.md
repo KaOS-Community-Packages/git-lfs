@@ -1,10 +1,4 @@
-Charm is a program for OS X, Linux and Windows that helps to keep
-track of time. It is built around two major ideas - tasks, and
-events. Tasks are the things time is spend on, repeatedly. For
-example, ironing laundry is a task. The laundry done for two hours on
-last Tuesday is an event in that task. When doing laundry multiple
-times, the events will be accumulated, and can later be printed in
-activity reports or weekly time sheets. So in case laundry would be
-done for three hours on Wednesday again, the activity report for the
-"Ironing Laundry" task would list the event on tuesday, the event on
-wednesday and a total of five hours.
+# Git Large File Storage
+
+An open source Git extension for versioning large files.
+Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
