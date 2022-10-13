@@ -1,14 +1,14 @@
 license=('MIT')
 arch=('x86_64')
 pkgname=git-lfs
-pkgver=2.7.1
+pkgver=3.2.0
 pkgrel=0
 pkgdesc="Git extension for versioning large files"
 depends=()
 makedepends=('go')
 url="https://git-lfs.github.com/"
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/git-lfs/git-lfs/archive/v${pkgver}.tar.gz")
-md5sums=('c0a1968b70e92193017496ac028b8f82')
+md5sums=('259bea8a3a1f538acb348941196dca7e')
 
 build() {
   cd ${pkgname}-${pkgver}
